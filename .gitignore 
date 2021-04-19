@@ -1,0 +1,35 @@
+# Payments Backend Git Ignore File
+# Payments-Backend
+
+# For more about ignoring files:
+# See https://help.github.com/articles/ignoring-files/
+# https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+
+# Backend Specific project files 
+zappa_settings.json
+zappa*
+
+# misc
+.DS_Store
+
+# . files
+.pem
+.log
+.vscode
+.idea
+
+
+# py files
+api_key.py
+env_keys.py
+bing_api_key.py
+node_modules
+yarn.lock
+env
+venv
+sample.py
+
+# __ files
+__pycache__/
